@@ -1,0 +1,89 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*form*/
+.form {
+  display: flex;
+  max-width: 60rem;
+  margin: 0;
+  
+}
+.form > div {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+.form label{
+  margin: 1rem 0;
+  font-family: "Gill Sans", sans-serif;
+
+}
+
+.form button {
+  height: 2.5rem;
+  margin-top: 4rem;
+}
+
+input,
+textarea {
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  border: 0.1rem #a4a4a4 solid;
+  font-size: 1rem;
+  font-family: "Gill Sans", sans-serif;
+
+}
+textarea {
+ height: 4rem;
+ width: 16rem;
+}
+ 
+ /*Table*/
+ .table {
+  width: 75%;
+  border-collapse: collapse;
+}
+
+.table tbody tr:nth-of-type(odd){
+  background-color: #f4f4f4;
+}
+
+.table td, 
+.table th {
+  padding: 0.5rem;
+ text-align: left;
+ border: 0.1rem solid #e4e4e4;
+ font-family: "Gill Sans", sans-serif;
+
+}
+button{
+  background-color:rgb(108, 139, 54);
+  color: #f4f4f4;
+  border-radius: 0.2rem;
+  border: 0.1rem;
+}
+button:hover {
+  background-color:rgb(66, 82, 39);
+  padding: 0.5rem;
+  border-color: rgb(27, 27, 27);
+  border: 0.5rem;
+
+}
+
+.table button {
+  height: 2rem;
+  width: 4rem;
+  margin: 0 0.2rem;
+}
+
+h1 {
+  color: #000000;
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Gill Sans", sans-serif;
+}
